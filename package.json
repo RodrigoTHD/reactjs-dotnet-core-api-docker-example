@@ -1,0 +1,8 @@
+{
+  "name": "example-frontend-backend-in-docker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/RodrigoTHD/example-frontend-backend-in-docker.git",
+  "author": "Rolf Rodrigo Krueger <rodrigothd@gmail.com>",
+  "license": "MIT"
+}
