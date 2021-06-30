@@ -2,7 +2,7 @@
 # Stage 1: based on Node.js, to build and compile the frontend.
 FROM node:16.3.0-alpine3.11 as build
 WORKDIR /app
-COPY ./ /app/
+COPY ./src/services/frontend /app/
 RUN yarn
 RUN yarn build
 
