@@ -1,8 +1,16 @@
 version: "3.7"
 
 services:
+  backend:
+    container_name: backend
+    build:
+      context: .
+      dockerfile: ./src/services/backend/Dockerfile
+    ports:
+      - 5000:80
   frontend:
     container_name: frontend
+    depends_on: [backend]
     build:
       context: .
       dockerfile: ./src/services/frontend/Dockerfile
