@@ -1,8 +1,9 @@
 # Multi-stage
 # Stage 1: based on Node.js, to build and compile the frontend.
 FROM node:16.3.0-alpine3.11 as build
+ARG GENERATE_SOURCEMAP
 WORKDIR /app
-COPY ./src/services/frontend /app/
+COPY . .
 RUN yarn
 RUN yarn build
 
