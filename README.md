@@ -1,6 +1,6 @@
 # ReactJS + .NET Core Api
 
-This project aims to demonstrate the minimum configuration required to integrate a ReactJS application and a .NET Core Api service.
+This project aims to demonstrate the minimum configuration required to integrate a ReactJS application and a .NET Core Api service using docker container.
 
 ## Pre-requisites
 
